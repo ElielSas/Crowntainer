@@ -1,0 +1,124 @@
+main {
+    background-color: #121212;
+    border: 20px ;
+    ol {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+.contenedor {
+    max-width: 62.5rem ;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.card {
+    background: rgb(211, 211, 211);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50x;
+}
+.card__thumbnail {
+    width: 38rem;
+    height: 25rem;
+    background: white;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.card__img {
+    width: 100%;
+}
+.card__titulo {
+    font-family: "raleway", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.card__enlace {
+    color: black;
+}
+.card__extracto {
+    line-height: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+.boton {
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    background: #3bccdf;
+    transition: .3s ease all;
+}
+.boton:hover {
+    background: #a13293;
+    text-decoration: none;
+}
+.boton--absolute {
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
+.boton--color {
+    background-color: rgb(80, 247, 80);
+}
+.contactos {
+    color: white;
+}
+.galeriaPublica {
+	color: white;
+	letter-spacing: 5px;
+	font-size: 4rem;
+	font-family: Apple Chancery, cursive;
+	text-align: center;
+	font-weight: 700;
+	border-bottom: 4px solid;
+	border-top: 4px solid;
+}
+.container {
+    border: white 1px solid;
+}
+.letra {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card--color {
+    background-color: white;
+    border-top: rgb(168, 164, 164);
+    color: black;
+}
+.card--img {
+    float: left;
+    font-size: 2rem;
+    text-align: right;
+}
+.boton--negro {
+    background-color: black;
+    color: white;
+    font-size: 20px ;
+    position: absolute;
+    right: 300px;
+    top: 100px;
+
+}
+.boton--scc {
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 600px;
+    right: 45px;
+}
