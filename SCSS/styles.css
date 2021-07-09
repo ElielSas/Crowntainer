@@ -16,6 +16,7 @@ header h1 {
   text-align: left;
   float: center;
   border-bottom: #b3aaaa 1.5px solid;
+  font-size: 1.5rem;
 }
 
 main {
@@ -169,6 +170,12 @@ main ol {
 
 .fondo-container {
   background-color: black;
+}
+
+.imagen-header {
+  height: 30rem;
+  width: 100%;
+  border-top: white 2px solid;
 }
 
 footer {
