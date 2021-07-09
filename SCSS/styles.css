@@ -130,10 +130,6 @@ main ol {
   border-top: 4px solid;
 }
 
-.container {
-  border: white 1px solid;
-}
-
 .letra {
   color: white;
   font-size: 3rem;
@@ -169,6 +165,10 @@ main ol {
   position: absolute;
   bottom: 600px;
   right: 45px;
+}
+
+.fondo-container {
+  background-color: black;
 }
 
 footer {
