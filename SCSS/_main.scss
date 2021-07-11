@@ -58,11 +58,11 @@ main {
     text-decoration: none;
     display: inline-flex;
     justify-content: center;
-    background: #3bccdf;
+    background: black;
     transition: .3s ease all;
 }
 .boton:hover {
-    background: #a13293;
+    background: grey;
     text-decoration: none;
 }
 .boton--absolute {
