@@ -183,8 +183,9 @@ footer {
   border-top: 2px solid black;
 }
 
-footer ol {
+footer ul {
   color: black;
   background-color: white;
+  list-style-type: none;
 }
 /*# sourceMappingURL=styles.css.map */
