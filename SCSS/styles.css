@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 header {
   background-color: black;
   color: white;
@@ -179,13 +183,19 @@ main ol {
 }
 
 footer {
-  background-color: white;
+  background-color: #505050;
   border-top: 2px solid black;
 }
 
 footer ul {
   color: black;
-  background-color: white;
+  color: white;
   list-style-type: none;
+  font-size: 16px;
+}
+
+a:link {
+  color: white;
+  font-style: none;
 }
 /*# sourceMappingURL=styles.css.map */
