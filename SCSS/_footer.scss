@@ -1,10 +1,14 @@
 footer {
-    background-color: white;
+    background-color: #505050;
     border-top: 2px solid black;
     ul {
         color:black;
-        background-color: white;
-        list-style-type: none;    
+        color: white;
+        list-style-type: none;
+        font-size: 16px;      
     }
 }
-    
+a:link {
+    color: white;
+    font-style: none;
+}
