@@ -12,67 +12,6 @@ main {
     margin: 0 auto;
     margin-bottom: 50px;
 }
-.card {
-    background: rgb(211, 211, 211);
-    border-radius: 15px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin-bottom: 50x;
-}
-.card__thumbnail {
-    width: 38rem;
-    height: 25rem;
-    background: white;
-    margin-right: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    display: inline-block;
-}
-.card__img {
-    width: 100%;
-}
-.card__titulo {
-    font-family: "raleway", sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    margin-bottom: 20px;
-}
-.card__enlace {
-    color: black;
-}
-.card__extracto {
-    line-height: 20px;
-    color: black;
-    margin-bottom: 20px;
-}
-.boton {
-    border: none;
-    min-width: 180px;
-    height: 50px;
-    padding: 0 30px;
-    color: #fff;
-    display: inline-block;
-    border-radius: 100px;
-    text-decoration: none;
-    display: inline-flex;
-    justify-content: center;
-    background: black;
-    transition: .3s ease all;
-}
-.boton:hover {
-    background: grey;
-    text-decoration: none;
-}
-.boton--absolute {
-    position: absolute;
-    right: 20px;
-    bottom: -25px;
-}
-.boton--color {
-    background-color: rgb(80, 247, 80);
-}
 .contactos {
     color: white;
 }
@@ -128,4 +67,25 @@ main {
     height: 30rem;
     width: 100%;
     border-top: white 2px solid;
+}
+p {
+    color: white;
+    font-size: 1rem;
+}
+.size {
+    width: 90%;
+    height: 100%;
+    border-radius: 10%;
+}
+strong {
+    font-size: 3rem;
+    font-weight: 1000;
+    color: white;
+    text-decoration: underline 2px grey;
+}
+@media screen and (max-width: 480px) {
+    .size:hover {
+        transform: scale(1.3);
+        transition: transform .5s ease;
+    }
 }
