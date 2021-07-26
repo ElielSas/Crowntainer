@@ -110,6 +110,10 @@ strong {
   }
 }
 
+.float {
+  float: center;
+}
+
 footer {
   background-color: #505050;
   border-top: 2px solid black;
