@@ -25,41 +25,6 @@ main {
 	border-bottom: 4px solid;
 	border-top: 4px solid;
 }
-
-.letra {
-    color: white;
-    font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-}
-.card--color {
-    background-color: white;
-    border-top: rgb(168, 164, 164);
-    color: black;
-}
-.card--img {
-    float: left;
-    font-size: 2rem;
-    text-align: right;
-}
-.boton--negro {
-    background-color: black;
-    color: white;
-    font-size: 20px ;
-    position: absolute;
-    right: 300px;
-    top: 100px;
-
-}
-.boton--scc {
-    background-color: lightblue;
-    color: black;
-    font-size: 20px;
-    font-weight: 700;
-    position: absolute;
-    bottom: 600px;
-    right: 45px;
-}
-
 .fondo-container{
     background-color: black;
 }
