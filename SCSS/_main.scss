@@ -54,7 +54,9 @@ strong {
         transform: scale(1.3);
         transition: transform .5s ease;
     }
+    header {
+        margin-bottom: 50px;
+        background-color: black;
+    }
 }
-.float {
-   float: center;
-}
+

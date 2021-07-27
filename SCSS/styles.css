@@ -108,10 +108,10 @@ strong {
     transition: transform .5s ease;
     transition: transform .5s ease, -webkit-transform .5s ease;
   }
-}
-
-.float {
-  float: center;
+  header {
+    margin-bottom: 50px;
+    background-color: black;
+  }
 }
 
 footer {

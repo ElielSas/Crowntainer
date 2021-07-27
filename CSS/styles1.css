@@ -42,7 +42,6 @@ body  {
 	text-align: center;
 	border: 2px solid;
 	background-image: block;
-	background-color: floralwhite;
 	padding: 1vh;
 	transition-duration: 0.4s;
   cursor: pointer;
@@ -163,10 +162,6 @@ h1 {
 	display: flex;
 	flex-flow: row nowrap;
 	border: 2px solid;
-}
-.boton2:hover {
-	background-color: #f44336;
-  color: white;
 }
 .boton:hover {
 	background-color: lightgrey;
