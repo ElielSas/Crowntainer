@@ -6,6 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="description" content="Crowntainer es una enlatadora, distribuidora, y vendedora de cervezas artesales ubicada en Rosario, Santa Fe">
     <meta name="keywords"  content="CERVEZA, LATAS, ENLATADO, ARTESANAL,DISTRIBUCIÓN">
+	<link rel="stylesheet" href="../CSS/styles1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../CSS/styles1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -22,14 +26,14 @@
 			  </a>		
 				
 				<div class="header">
-				  <h1>CONTACTATE CON NOSOTROS</h1>
+				  <h1>CONOCE NUESTROS PRODUCTOS</h1>
 				</div>
 				
 				<button class="navbar-toggler navbar-toggler-right bg-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 			<!---Menú DESPLEGABLE--->
-				<div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+				<div class="collapse navbar-collapse position-relative position " id="navbarTogglerDemo01">
 				  <div class="navbar-nav ml-5 navbar-custom ">
 					<a href="../index.html" class="nav-item nav-link text-white font-weight-bold pr-3"> INICIO </a>
 					<a href="novedades.html"class="nav-item nav-link text-white font-weight-bold pr-3"> SERVICIOS </a>
@@ -42,76 +46,89 @@
 		</div>
 	  </header>
 <main>
-	<h2 class="letra">Lista de Nuestros Productos</h2>
-	<div class="card">
-		<img src="../media/ipa.jpg" alt="Lata IPA" style="width:100%">
-		<h3>Lata IPA 483ml</h3>
-		<p class="price">PRECIO :$199.99</p>
-		<ul>
-			<li>Amargor: 60 IBU</li>
-			<li>Alcohol: 6-7%</li>
-			<li>Color: Pálido anaranjado </li>
-		</ul>
-		<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
-	  </div>
-	  <div class="card">
-		<img src="../media/aaa.jpg" alt="Lata Amber Ale" style="width:100%">
-		<h3>Lata American Amber Ale 483ml</h3>
-		<p class="price">PRECIO :$190.99</p>
-		<ul>
-			<li>Amargor: 25 – 40</li>
-			<li>Alcohol: 4-6%</li>
-			<li>Color: ámbar y marrón cobrizo </li>
-		</ul>
-		<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
-	  </div>
-	  <div class="card">
-		<img src="../media/honey.jpg" alt="Lata Honey" style="width:100%">
-		<h3>Lata Honey SCC 483ml</h3>
-		<p class="price">PRECIO :$190.99</p>
-		<ul>
-			<li>Amargor: 11,6 IBU</li>
-			<li>Alcohol: 5,6%</li>
-			<li>Color: Rubia</li>
-		</ul>
-		<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
-	  </div>
-	  <div class="card">
-		<img src="../media/stout.jpg" alt="Lata Stout" style="width:100%">
-		<h3>Lata Milk Stout 483ml</h3>
-		<p class="price">PRECIO :$190.99</p>
-		<ul>
-			<li>Amargor: 25 – 30</li>
-			<li>Alcohol: 4-6%</li>
-			<li>Color: Negro </li>
-		</ul>
-		<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
-	  </div>
-	  <div class="card">
-		<img src="../media/summer.jpg" alt="Lata Summer" style="width:100%">
-		<h3>Lata Summer Time 483ml</h3>
-		<p class="price">PRECIO :$190.99</p>
-		<ul>
-			<li>Amargor: 15 IBU</li>
-			<li>Alcohol: 3,9%</li>
-			<li>Color: Color pajizo a dorado </li>
-		</ul>
-		<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
-	  </div>
-	  <div class="card">
-		<img src="../media/scott.jpg" alt="Lata Scottish" style="width:100%">
-		<h3>Lata Scottish 483ml</h3>
-		<p class="price">PRECIO :$190.99</p>
-		<ul>
-			<li>Amargor: 13 IBU</li>
-			<li>Alcohol: 4,6%</li>
-			<li>Color: Rojizo </li>
-		</ul>
-		<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
-	  </div>
-
-
-	
+	<h2>Lista de Nuestros Productos</h2>
+		<div class="container">
+			<div class="column">
+				<div class="card">
+					<img src="../media/ipa.jpg" alt="Lata IPA" style="width:100%">
+					<h3> IPA 483ml</h3>
+					<p class="price">PRECIO :$199.99</p>
+					<ul>
+						<li>Amargor: 60 IBU</li>
+						<li>Alcohol: 6-7%</li>
+						<li>Color: Pálido anaranjado </li>
+					</ul>
+					<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<img src="../media/aaa.jpg" alt="Lata Amber Ale" style="width:100%">
+					<h3>Amber Ale 483ml</h3>
+					<p class="price">PRECIO :$190.99</p>
+					<ul>
+						<li>Amargor: 25 – 40</li>
+						<li>Alcohol: 4-6%</li>
+						<li>Color: Ámbar </li>
+					</ul>
+					<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card right">
+					<img src="../media/honey.jpg" alt="Lata Honey" style="width:100%">
+					<h3>Honey SCC 483ml</h3>
+					<p class="price">PRECIO :$190.99</p>
+					<ul>
+						<li>Amargor: 11,6 IBU</li>
+						<li>Alcohol: 5,6%</li>
+						<li>Color: Rubia</li>
+					</ul>
+					<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+				<div class="column">
+					<div class="card">
+						<img src="../media/stout.jpg" alt="Lata Stout" style="width:100%">
+						<h3>Milk Stout 483ml</h3>
+						<p class="price">PRECIO :$190.99</p>
+						<ul>
+							<li>Amargor: 25 – 30</li>
+							<li>Alcohol: 4-6%</li>
+							<li>Color: Negro </li>
+						</ul>
+						<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
+					</div>
+				</div>
+			<div class="column">
+				<div class="card">
+					<img src="../media/crystal.jpg" class="size" alt="Lata Crystal" style="width:100%">
+					<h3>Crystal IPA 483ml</h3>
+					<p class="price">PRECIO :$199.99</p>
+					<ul>
+						<li>Amargor: 38 IBU</li>
+						<li>Alcohol: 5,5%</li>
+						<li>Color: Cobriza </li>
+					</ul>
+					<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<img src="../media/scott.jpg" class="size" alt="Lata Scottish" style="width:100%">
+					<h3>Scottish 483ml</h3>
+					<p class="price">PRECIO :$190.99</p>
+					<ul>
+						<li>Amargor: 13 IBU</li>
+						<li>Alcohol: 4,6%</li>
+						<li>Color: Rojizo </li>
+					</ul>
+					<p><button><a href="../sections/contactos.html">CONSULTAR DISPONIBILIDAD</a></button></p>
+				</div>
+			</div>
+		</div>
  </main>
  <footer class="container__footer text-dark py-3 text-justify">
 	<div class="container-fluid">	

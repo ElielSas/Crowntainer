@@ -1,64 +1,50 @@
 body {
 	background-color: black;
-  }
+}
   
-  header {
+header {
 	background-color: black;
 	color: white;
 	font-size: 1rem;
 	width: 100%;
 	height: 200px;
-  }
-  
-  header img {
+}
+header img {
 	width: 5rem;
 	height: 5rem;
 	margin-bottom: 15px;
-  }
-  
-  header h1 {
-	text-align: left;
-	float: center;
-	border-bottom: #b3aaaa 1.5px solid;
-	font-size: 1.5rem;
-  }
-  
-  @media screen and (max-width: 480px) {
+} 
+@media screen and (max-width: 480px) {
 	.navbar-custom {
 	  background-color: grey;
 	  color: white;
 	  border: 2px solid white;
 	}
 	header {
-	  margin-bottom: 10px;
+	  padding-bottom: 20px;
 	}
 	header h1 {
-	  font-size: 1.2rem;
+	  font-size: 1rem;
 	}
-  }
+}  
+main {
+	background-color: #5C4033;
+}
   
-  main {
-	background-color: #121212;
-	border: 20px;
-  }
-  
-  main ol {
+main ol {
 	font-size: 2.5rem;
 	text-align: center;
-  }
-  
-  .contenedor {
+}  
+.contenedor {
 	max-width: 62.5rem;
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 50px;
-  }
-  
-  .contactos {
+} 
+.contactos {
 	color: white;
-  }
-  
-  .galeriaPublica {
+}  
+.galeriaPublica {
 	color: white;
 	letter-spacing: 5px;
 	font-size: 4rem;
@@ -67,38 +53,31 @@ body {
 	font-weight: 700;
 	border-bottom: 4px solid;
 	border-top: 4px solid;
-  }
+}
   
-  .fondo-container {
+.fondo-container {
 	background-color: black;
-  }
+}
   
-  .imagen-header {
+.imagen-header {
 	height: 100%;
 	width: 100%;
 	border-top: white 2px solid;
-  }
-  
-  p {
+}  
+p {
 	color: white;
 	font-size: 1rem;
 	font-family: 'Roboto', sans-serif;
-  }
-  
-  .size {
+}.size {
 	width: 90%;
 	height: 100%;
 	border-radius: 10%;
-  }
-  
-  strong {
+}  
+strong {
 	font-size: 3rem;
 	font-weight: 1000;
 	color: white;
-	-webkit-text-decoration: underline 2px grey;
-			text-decoration: underline 2px grey;
-  }
-  
+}  
   @media screen and (max-width: 480px) {
 	.size:hover {
 	  -webkit-transform: scale(1.3);
@@ -108,56 +87,52 @@ body {
 	  transition: transform .5s ease;
 	  transition: transform .5s ease, -webkit-transform .5s ease;
 	}
-	header {
-	  margin-bottom: 50px;
-	  background-color: black;
+	main {
+		border-top:black solid 20px;
 	}
-  }
-  
-  footer {
+}
+footer {
 	background-color: #505050;
 	border-top: 2px solid black;
-  }
-  
-  footer ul {
+} 
+footer ul {
 	color: black;
 	color: white;
 	list-style-type: none;
-	font-size: 16px;
-  }
-  
-  a:link {
+	font-size: 16px; 
+}
+a:link {
 	color: white;
 	font-style: none;
-  }
+}
+#nav {
+    z-index: 9999;
+}
   
-  .mapouter {
+.mapouter {
 	position: relative;
 	text-align: right;
 	height: 400px;
 	width: 350px;
-  }
-  
-  .gmap_canvas {
+}
+.gmap_canvas {
 	overflow: hidden;
 	background: none;
 	height: 400px;
 	width: 350x;
-  }
-  .card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card {
 	max-width: 200px;
 	margin: auto;
 	text-align: center;
-	font-family: arial;
-  }
-  
-  .price {
+	font-family: 'Inconsolata', monospace;
+	display:block;
+}
+.price {
 	color: grey;
 	font-size: 22px;
-  }
-  
-  .card button {
+}
+.card button {
 	border: none;
 	outline: 0;
 	padding: 12px;
@@ -167,8 +142,43 @@ body {
 	cursor: pointer;
 	width: 100%;
 	font-size: 1rem;
-  }
+}
   
-  .card button:hover {
+.card button:hover {
 	opacity: 0.7;
-  }
+}
+h2 {
+	padding: 15px;
+	text-align: center;
+	font-size: 3rem;
+	color: white;
+	font-style: italic;
+	font-family: font-family: 'Bebas Neue', cursive;
+}
+.position {
+	z-index: 9999;
+}
+.container {
+	display: flex;
+    align-items: center;
+	margin: 0 -5px;
+	padding-bottom: 15px;
+	justify-content: center;
+}
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.column {
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+}
+@media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+}
