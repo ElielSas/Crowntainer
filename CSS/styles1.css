@@ -1,56 +1,64 @@
-*{
-	margin-top: 0px;
-	margin-left: 0px;
-}
-table {
-	border: 4px solid black;
-}
-tr {
-	background-color:#cccccc;
-	border: 2px solid;
-}
-td {
-	background-color:orange ;
-	border: 1px solid;
-}
-footer {
-	background-color: #FFDB58;
-	border: 2px solid;
-}
-img {
-	width: 50%;
-}
-body  {
-	background: linear-gradient(to bottom , black , #353935 )
-}
-.normal {
-	font-style: normal;
+body {
+	background-color: black;
+  }
+  
+  header {
+	background-color: black;
 	color: white;
-}
-.title {
-	color: black;
-	font-family:"Franklin Gothic Medium",sans-serif;
-	font-size:30px;
+	font-size: 1rem;
+	width: 100%;
+	height: 200px;
+  }
+  
+  header img {
+	width: 5rem;
+	height: 5rem;
+	margin-bottom: 15px;
+  }
+  
+  header h1 {
+	text-align: left;
+	float: center;
+	border-bottom: #b3aaaa 1.5px solid;
+	font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 480px) {
+	.navbar-custom {
+	  background-color: grey;
+	  color: white;
+	  border: 2px solid white;
+	}
+	header {
+	  margin-bottom: 10px;
+	}
+	header h1 {
+	  font-size: 1.2rem;
+	}
+  }
+  
+  main {
+	background-color: #121212;
+	border: 20px;
+  }
+  
+  main ol {
+	font-size: 2.5rem;
 	text-align: center;
-	text-decoration: underline black 3px;
-}
-.boton {
-	color:black;
-	font-style: italic;
-	font-family:"open sans",sans-serif;
-	font-size: 13px;
-	text-align: center;
-	border: 2px solid;
-	background-image: block;
-	padding: 1vh;
-	transition-duration: 0.4s;
-  cursor: pointer;
-}
-.letra {
-	font-family: "Century Gothic";
-	list-style-image: url(../media/icono.jpg);
-}
-.galeriaPublica {
+  }
+  
+  .contenedor {
+	max-width: 62.5rem;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+  }
+  
+  .contactos {
+	color: white;
+  }
+  
+  .galeriaPublica {
 	color: white;
 	letter-spacing: 5px;
 	font-size: 4rem;
@@ -59,140 +67,108 @@ body  {
 	font-weight: 700;
 	border-bottom: 4px solid;
 	border-top: 4px solid;
-}
-h2 {
-	border: 2px solid;
+  }
+  
+  .fondo-container {
 	background-color: black;
-	font-family: arial, sans-serif;
-	font-size: 20px;
-	text-align: center;
-	color: white;
-}
-.bordesBotones {
-	border: 3px solid black;
-	background-color: #FFD700;
-}
-.bordesBoton {
-	border: 3px solid black;
-	background-color: #FFD700;
-	padding-top: 15px;
-}
-p {
-	font-family: helvetica, sans-serif;
-	font-size: 2rem;
-	font-weight: bold;
-	color: white;
-	border-top: 1px solid #2f2f2f;
-	margin-top: 3rem;
-}
-.header1 {
-  float: left;
-  width: 5rem;
-  height:5rem;
-  background: #555;
-}
-.space {
-	padding: 15px;
-}
-h1 {
-	font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
-	width: auto;
-	height:auto;
-	color: white;
-	margin-bottom: 3rem;
-}
-.afuera {
+  }
+  
+  .imagen-header {
+	height: 100%;
 	width: 100%;
-	text-align: left;
-	margin: 0px;
-}
-.dentro {
-	display: inline-block;
-	padding-right: 10px;
-	transform: skew(10deg);
-}
-
-.afuera2 {
-	width: 100%;
-	text-align: right;
-	float: right;
-	padding: 15px;
-}
-.boton2 {
-	color:black;
-	font-family:"open sans",sans-serif;
-	font-size: 10px;
-	text-align: center;
-	border: 2px solid;
-	background-image: block;
-	background-color: floralwhite;
-	padding: 10px;
-	margin: 10px;
-	transition-duration: 0.4s;
-  cursor: pointer;
-}
-.App {
-	float: left;
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	transform: rotateX(30deg);
-	transform: scale(1.45);
-}
-#Flex {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: left;
-}
-.flex {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-top: 10px;
-}
-#Flex1 {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	border: 3px solid;
-}
-.img {
-	display: flex;
-	flex-flow: row nowrap;
-	border: 2px solid;
-}
-.boton:hover {
-	background-color: lightgrey;
+	border-top: white 2px solid;
+  }
+  
+  p {
+	color: white;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  .size {
+	width: 90%;
+	height: 100%;
+	border-radius: 10%;
+  }
+  
+  strong {
+	font-size: 3rem;
+	font-weight: 1000;
+	color: white;
+	-webkit-text-decoration: underline 2px grey;
+			text-decoration: underline 2px grey;
+  }
+  
+  @media screen and (max-width: 480px) {
+	.size:hover {
+	  -webkit-transform: scale(1.3);
+			  transform: scale(1.3);
+	  -webkit-transition: -webkit-transform .5s ease;
+	  transition: -webkit-transform .5s ease;
+	  transition: transform .5s ease;
+	  transition: transform .5s ease, -webkit-transform .5s ease;
+	}
+	header {
+	  margin-bottom: 50px;
+	  background-color: black;
+	}
+  }
+  
+  footer {
+	background-color: #505050;
+	border-top: 2px solid black;
+  }
+  
+  footer ul {
 	color: black;
-}
-.socios {
-	font-family: monospace;
-	font-size: 30px;
-	text-decoration: underline black 2px;
-	margin-left: 10px;
-}
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid white;
-  background-image: none;
-}
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: white;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: white;
-}
+	color: white;
+	list-style-type: none;
+	font-size: 16px;
+  }
+  
+  a:link {
+	color: white;
+	font-style: none;
+  }
+  
+  .mapouter {
+	position: relative;
+	text-align: right;
+	height: 400px;
+	width: 350px;
+  }
+  
+  .gmap_canvas {
+	overflow: hidden;
+	background: none;
+	height: 400px;
+	width: 350x;
+  }
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 200px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+  }
+  
+  .price {
+	color: grey;
+	font-size: 22px;
+  }
+  
+  .card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 1rem;
+  }
+  
+  .card button:hover {
+	opacity: 0.7;
+  }
