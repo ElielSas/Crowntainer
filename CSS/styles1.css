@@ -1,7 +1,12 @@
 body {
 	background-color: black;
 }
-  
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style-type: none;
+}
 header {
 	background-color: black;
 	color: white;
@@ -45,20 +50,24 @@ main ol {
 	color: white;
 }  
 .galeriaPublica {
-	color: white;
-	letter-spacing: 5px;
-	font-size: 4rem;
-	font-family: Apple Chancery, cursive;
+	color: black;	
+	letter-spacing: 0.3rem;
+	font-size: 3.5rem;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-weight: 700;
 	border-bottom: 4px solid;
 	border-top: 4px solid;
+	margin-top: 50px;
+	background-color:wheat;
 }
   
 .fondo-container {
 	background-color: black;
 }
-  
+.spacing {
+	padding-top: 50px;
+}
 .imagen-header {
 	height: 100%;
 	width: 100%;
@@ -78,7 +87,7 @@ strong {
 	font-weight: 1000;
 	color: white;
 }  
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 	.size:hover {
 	  -webkit-transform: scale(1.3);
 			  transform: scale(1.3);
@@ -89,6 +98,11 @@ strong {
 	}
 	main {
 		border-top:black solid 20px;
+	}
+	.item {
+		border: 3px black solid;
+		transform: scale(1.5);
+		transition: 0.5s ease;
 	}
 }
 footer {
@@ -153,7 +167,7 @@ h2 {
 	font-size: 3rem;
 	color: white;
 	font-style: italic;
-	font-family: font-family: 'Bebas Neue', cursive;
+	font-family: 'Montserrat', sans-serif;
 }
 .position {
 	z-index: 9999;
@@ -182,4 +196,16 @@ h2 {
 	  display: block;
 	  margin-bottom: 20px;
 	}
+	.card:hover {
+		transform: scale(1.2);
+		transition: 1s ease;
+	}
+}
+.parrafo {
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2rem;
+	color: white;
+}
+.cortos {
+
 }
