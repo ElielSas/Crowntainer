@@ -209,3 +209,6 @@ h2 {
 .cortos {
 
 }
+a:link {
+	font-style: none;
+}
