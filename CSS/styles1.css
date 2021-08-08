@@ -197,7 +197,7 @@ h2 {
 	  display: block;
 	  margin-bottom: 20px;
 	}
-	.card:hover {
+	.img:hover {
 		transform: scale(1.2);
 		transition: 1s ease;
 	}
