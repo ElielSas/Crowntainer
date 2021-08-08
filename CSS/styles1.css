@@ -206,6 +206,7 @@ h2 {
 	font-family: 'Cabin', sans-serif;
 	font-size: 1.2rem;
 	color: white;
+	text-justify: center;
 }
 a:link {
 	font-style: none;
